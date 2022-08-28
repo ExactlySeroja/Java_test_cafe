@@ -65,7 +65,6 @@ public class Service {
             tableNumber = scanner.nextInt();
             if ((tableNumber >= 1) && (tableNumber <= 4)) {
                 check = false;
-                break;
             } else
                 System.out.println("Wrong action! Try again");
         }
